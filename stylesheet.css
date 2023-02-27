@@ -1,0 +1,191 @@
+/* ==================#e5e4d7 LAYOUT SECTION ========= */
+
+body {
+background-color: #061C37;
+margin: 0px;
+font-family:Constantia;
+font-size: 14px;
+/* font-size: 15px; */
+}
+
+#mainpic h1
+{
+	position:absolute;
+text-align:right;
+
+font-size:30px;
+color:#FFF;	
+left:550px;
+top:100px;
+}
+
+
+#mainpic h2
+{
+position:absolute;
+text-align:right;
+color:#E1E7F7;	
+left:550px;
+top:130px;
+}
+
+#mainpic
+{
+background-image:url(reWalls.com_9.jpg);
+background-repeat:no-repeat;
+width:1400px;
+height:201px;	
+}
+
+
+
+.lightblue
+{
+color:#B1C6FC	
+	
+}
+
+
+
+#navbar ul   { 
+	 background-image:url(menu.png);
+padding: 5px; 
+list-style-type: none; 
+text-align: center; 
+background-color: #000; 
+margin: 10px;
+border-radius: 5px;
+
+} 
+
+#navbar ul  li  { 
+	 
+display: inline;
+
+} 
+
+
+#navbar ul li a { 
+	
+text-decoration: none; 
+font-family:Arial;
+padding: .4em 2em; 
+color: #fff; 
+background-repeat:no repeat; 
+} 
+
+#navbar ul li a:hover { 
+
+color: #000; 
+background-color: #fff; 
+} 
+
+.main {
+background-color: white;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+}
+
+.sideright {
+background-color: white;
+font-size: 105%;
+padding: 20px;
+width:260px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;;
+clear:right;
+}
+
+.imagesidebar {
+width:300px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;;
+clear:right;
+opacity: 1.0;
+transition: opacity 5s ease-in-out;
+}
+
+.imagesidebar:hover {
+
+    opacity: 0.4;
+}
+
+#footer {
+background-repeat:no-repeat;
+
+margin: 10px;
+height: 60px;
+clear:both;
+border-radius: 5px;
+color: #efe5d0;
+text-align: center;
+padding: 15px;
+font-size: 90%;
+}
+
+#footer ul   {
+background-repeat:no-repeat; 
+	 
+padding: 5px; 
+list-style-type: none; 
+text-align: center; 
+margin: 10px;
+border-radius: 5px;
+
+} 
+
+#footer ul  li  { 
+	 
+display: inline;
+background-repeat:no-repeat;
+} 
+
+#footer ul li a { 
+background-repeat:no-repeat;	
+text-decoration: none; 
+font-family:Arial;
+padding: .2em 1em; 
+color: #efe5d0; 
+background-image:url(menu.png);
+
+ 
+} 
+
+#footer ul li a:hover { 
+
+background-repeat:no-repeat; 
+
+} 
+
+/* ================== ,color: #000,background-color: #fff; ,background-color: #5c755e;HEADINGS SECTION ========= */
+
+h1 {
+font-size: 120%;
+color: #ce282e;
+}
+
+h2 {
+font-size: 120%;
+color: darkblue;
+}
+
+h3 {
+font-size: 250%;
+text-align:center;
+color:#e5e4d7;
+font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+margin: 0px;
+
+ position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
